@@ -224,17 +224,17 @@ li:hover {
   display: inline-block;
   border-radius: 3px;
   padding: 7px 12px;
-  border: 1px solid #D5D5D5;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#EEE), to(#DDD));
-  background-image: linear-gradient(#EEE, #DDD);
+  border: 1px solid #d5d5d5;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#ddd));
+  background-image: linear-gradient(#eee, #ddd);
   font: 700 13px/18px Helvetica, arial;
 }
 
 .button--state-success {
-  color: #FFF;
+  color: #fff;
   background: purple -webkit-gradient(linear, left top, left bottom, from(purple), to(#933d9e)) repeat-x;
   background: purple linear-gradient(purple, #933d9e) repeat-x;
-  border-color: #4A993E;
+  border-color: #4a993e;
 }
 
 .findus {
@@ -404,15 +404,10 @@ p {
   left: -5px;
   cursor: pointer;
   opacity: 0;
-  /* hide this */
   z-index: 2;
-  /* and place it over the hamburger */
   -webkit-touch-callout: none;
 }
 
-/*
-  * Just a quick hamburger
-  */
 #menuToggle span {
   display: block;
   width: 33px;
@@ -440,10 +435,6 @@ p {
           transform-origin: 0% 100%;
 }
 
-/* 
-  * Transform all the slices of hamburger
-  * into a crossmark.
-  */
 #menuToggle input:checked ~ span {
   opacity: 1;
   -webkit-transform: rotate(45deg) translate(-2px, -1px);
@@ -451,27 +442,17 @@ p {
   background: purple;
 }
 
-/*
-  * But let's hide the middle one.
-  */
 #menuToggle input:checked ~ span:nth-last-child(3) {
   opacity: 0;
   -webkit-transform: rotate(0deg) scale(0.2, 0.2);
           transform: rotate(0deg) scale(0.2, 0.2);
 }
 
-/*
-  * Ohyeah and the last one should go the other direction
-  */
 #menuToggle input:checked ~ span:nth-last-child(2) {
   -webkit-transform: rotate(-45deg) translate(0, -1px);
           transform: rotate(-45deg) translate(0, -1px);
 }
 
-/*
-  * Make this absolute positioned
-  * at the top left of the screen
-  */
 #menu {
   position: absolute;
   width: 300px;
@@ -482,7 +463,6 @@ p {
   background: white;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
-  /* to stop flickering of text in safari */
   -webkit-transform-origin: 0% 0%;
           transform-origin: 0% 0%;
   -webkit-transform: translate(-100%, 0);
@@ -504,4 +484,15 @@ p {
 #menuToggle input:checked ~ ul {
   -webkit-transform: none;
           transform: none;
+}
+
+.card-body {
+  display: -ms-inline-grid;
+  display: inline-grid;
+  text-align: center;
+}
+
+.btn-primary {
+  max-height: 40px;
+  margin-top: 10px;
 }
