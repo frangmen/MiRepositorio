@@ -210,6 +210,7 @@ li:hover {
   word-spacing: 2px;
   text-align: center;
   margin: 10px;
+  font-size: 20px;
 }
 
 .footer__link--active {
@@ -237,7 +238,8 @@ li:hover {
 }
 
 .findus {
-  background-color: rosybrown;
+  background-color: sandybrown;
+  opacity: 1.2;
 }
 
 .form-control {
@@ -353,7 +355,9 @@ p {
 }
 
 .row {
-  padding: 10px;
+  padding: 0;
+  margin: 15px;
+  margin-left: 20px;
 }
 
 #menuToggle {
