@@ -501,9 +501,6 @@ p {
   font-size: 17px;
 }
 
-/*
-  * And let's slide it in from the left
-  */
 #menuToggle input:checked ~ ul {
   -webkit-transform: none;
           transform: none;
