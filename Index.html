@@ -66,7 +66,37 @@
       </div>
     </header>
 
-
+    <nav role="navigation">
+      <div id="menuToggle">
+        <!--
+        A fake / hidden checkbox is used as click reciever,
+        so you can use the :checked selector on it.
+        -->
+        <input type="checkbox" />
+        
+        <!--
+        Some spans to act as a hamburger.
+        
+        They are acting like a real hamburger,
+        not that McDonalds stuff.
+        -->
+        <span></span>
+        <span></span>
+        <span></span>
+        
+        <!--
+        Too bad the menu has to be inside of the button
+        but hey, it's pure CSS magic.
+        -->
+        <ul id="menu">
+          <li><a href="index.html">Main Page</a></li>
+          <li><a href="views\T-Shirts.html">T-shirts</a></li>
+          <li><a href="views\Tank-tops.html">Tank-Tops</a></li>
+          <li><a href="views\Hoodies.html">Hoodies</a></li>
+          <li><a href="views\Contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
 
     <div>
       <div class="container">
@@ -79,7 +109,9 @@
         </ul>
       </div>
     </div>
-
+  </br>
+</br></br>
+</br>
     <div id="demo" class="carousel slide" data-ride="carousel">
         <ul class="carousel-indicators">
         <li data-target="#demo" data-slide-to="0" class="active"></li>
