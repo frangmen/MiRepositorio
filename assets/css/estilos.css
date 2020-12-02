@@ -112,7 +112,7 @@ li:hover {
   color: #ddd !important;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 776px) {
   #botonSearch {
     display: none;
     width: auto;
@@ -183,7 +183,7 @@ li:hover {
           animation-name: aparecer;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 776px) {
   .form-inline .form-control {
     display: none;
     width: auto;
