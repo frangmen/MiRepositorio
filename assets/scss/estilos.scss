@@ -128,7 +128,7 @@ li:hover {
 .card-img-top {
   border-radius: 2.25rem;
   padding: 10px;
-  max-width: 95%;
+  max-width: 92%;
   opacity: 1;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
@@ -137,12 +137,6 @@ li:hover {
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   animation-duration: 2s;
   animation-name: aparecer;
-}
-
-@media (max-width: 576px) { 
-  .card-img-top {
-    margin-top: 100px;
-  }
 }
 
 .card-img-top:hover {
@@ -253,6 +247,13 @@ p {
   max-width: 1100px;
   overflow: auto;
   padding: 0 $padding;
+}
+
+a {
+  color: purple;
+  text-decoration: none;
+  background-color: transparent;
+  text-transform: uppercase;
 }
 
 #demoreq {
