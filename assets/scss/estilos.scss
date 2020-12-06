@@ -22,6 +22,13 @@ $font-main: "Montserrat", sans-serif;
   animation-name: aparecer;
 }
 
+li a {
+  color: $color;
+  font-size: $MyFontSize;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
 @keyframes aparecer {
   0% {
     opacity: 0;
@@ -130,6 +137,12 @@ li:hover {
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   animation-duration: 2s;
   animation-name: aparecer;
+}
+
+@media (max-width: 576px) { 
+  .card-img-top {
+    margin-top: 100px;
+  }
 }
 
 .card-img-top:hover {
