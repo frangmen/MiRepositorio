@@ -190,11 +190,17 @@ li:hover {
           animation-name: aparecer;
 }
 
-@media (max-width: 776px) {
+@media (min-width: 776px) {
   .form-inline .form-control {
     display: none;
     width: auto;
     vertical-align: middle;
+  }
+}
+
+@media (min-width: 776px) {
+  .form-inline {
+    display: none;
   }
 }
 
@@ -393,9 +399,12 @@ a {
   }
 }
 
+/* --- MENU HAMBURGUESA --- */
 @media (max-width: 576px) {
   #menuToggle {
     display: block;
+    overflow: hidden;
+    margin-bottom: 100px;
   }
 }
 
